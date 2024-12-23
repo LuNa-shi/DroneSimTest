@@ -20,7 +20,7 @@ then
   roslaunch envsim visionenv_sim.launch render:=True &
   ROS_PID="$!"
   echo $ROS_PID
-  sleep 10
+  sleep 30
 else
   ROS_PID=""
 fi
@@ -31,6 +31,8 @@ SUMMARY_FILE="evaluation.yaml"
 # Perform N evaluation runs
 for i in $(eval echo {1..$N})
 do
+
+  start_time=$(date +%s)
   # Publish simulator reset
   rostopic pub /kingfisher/dodgeros_pilot/off std_msgs/Empty "{}" --once
   rostopic pub /kingfisher/dodgeros_pilot/reset_sim std_msgs/Empty "{}" --once
@@ -44,19 +46,41 @@ do
   python3 evaluation_node.py &
   PY_PID="$!"
 
-  python3 run_competition.py &
+  python3 run_competition.py --vision_based --num_lstm_layers 5.0 --model_type "ViTLSTM" --model_path ../../models/ViTLSTM_model.pth &
   COMP_PID="$!"
 
   cd -
 
   sleep 2.0
-  rostopic pub /kingfisher/start_navigation std_msgs/Empty "{}" --once
 
+  # Wait until the evaluation script has finished
   # Wait until the evaluation script has finished
   while ps -p $PY_PID > /dev/null
   do
-    sleep 1
+    echo
+    echo [LAUNCH_EVALUATION] Sending start navigation command
+    echo
+    rostopic pub /kingfisher/start_navigation std_msgs/Empty "{}" --once
+    sleep 2
+
+    # if the current iteration has surpassed the time limit, something went wrong (possibly: [Pipeline]     Bridge failed!). Kill the simulator.
+    if ((($(date +%s) - start_time) >= 300))
+    then
+      echo
+      echo
+      echo
+      echo
+      echo "Time limit exceeded. Exiting evaluation script loop."
+      echo
+      echo
+      echo
+      echo
+      kill -SIGINT $PY_PID
+      break
+    fi
+
   done
+
 
   cat "$SUMMARY_FILE" "./envtest/ros/summary.yaml" > "tmp.yaml"
   mv "tmp.yaml" "$SUMMARY_FILE"

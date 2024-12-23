@@ -33,3 +33,5 @@ GPATH
 .vscode/*
 
 saved
+
+envtest/ros/train_set/*

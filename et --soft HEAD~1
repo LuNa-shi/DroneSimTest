@@ -1,0 +1,1220 @@
+[33mcommit 95b501b2c6918eaa0e010596cf45089c0c0f69a9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: luna <shiwenxiang3525@126.com>
+Date:   Mon Dec 23 15:10:00 2024 +0800
+
+    finish a automatic experiment setting
+
+[33mcommit 03dc1179c011f414aba1264bb6db92679be66b4f[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mvitfly[m[33m)[m
+Merge: 3cbd9ff 4ee7ef9
+Author: Yunlong <yun-long.song@outlook.com>
+Date:   Mon May 23 07:08:01 2022 -0700
+
+    Merge pull request #78 from tongtybj/PR/install_uniplot
+    
+    Add uniplot in the conda env
+
+[33mcommit 4ee7ef991a51b473ce89609c5500c37dd0940188[m
+Author: Moju Zhao <chou@jsk.imi.i.u-tokyo.ac.jp>
+Date:   Sun May 22 16:25:22 2022 +0900
+
+    Add uniplot in the conda env
+
+[33mcommit 3cbd9ff10efceb40970e5f6c3408c414e4a3bcc3[m
+Merge: 410ddf0 b181e24
+Author: Antonio Loquercio <loquercio@berkeley.edu>
+Date:   Wed May 18 10:37:44 2022 -0700
+
+    Merge pull request #75 from tongtybj/PR/competition
+    
+    Improve the competition evaluation process
+
+[33mcommit b181e2450bae095a779064ffd0fa1ae25442a905[m
+Author: Moju Zhao <chou@jsk.imi.i.u-tokyo.ac.jp>
+Date:   Sat May 14 22:37:51 2022 +0900
+
+    Increase the wait time for hovering after takeoff
+
+[33mcommit 33ced4a761ac4361f6343ff32b0c785ab64dec4b[m
+Author: Moju Zhao <chou@jsk.imi.i.u-tokyo.ac.jp>
+Date:   Sun May 1 17:42:30 2022 +0900
+
+    refactor the policy load rule for evaluation code
+
+[33mcommit 410ddf0c8b9851b16aff0e15379da951869dfd69[m
+Author: Antonio Loquercio <loquercio@berkeley.edu>
+Date:   Fri May 6 19:26:10 2022 -0700
+
+    Update README.md
+
+[33mcommit 1bd4b58b72152e1a1c0ba59c7a37199b5c16c63e[m
+Author: Antonio Loquercio <loquercio@berkeley.edu>
+Date:   Fri May 6 19:25:23 2022 -0700
+
+    Update README.md
+
+[33mcommit 3d8f0515bc1d27e55bf37b5b9503a5f825cf1dbf[m
+Merge: b12f0f2 904cd06
+Author: Yunlong <yun-long.song@outlook.com>
+Date:   Tue May 3 09:51:41 2022 -0700
+
+    Merge pull request #68 from tongtybj/PR/unity_render
+    
+    Improve the evaluation process for ppo based action
+
+[33mcommit 904cd06a1bec3db362da16bcb6d81bcee46f84eb[m
+Author: Moju Zhao <chou@jsk.imi.i.u-tokyo.ac.jp>
+Date:   Wed May 4 01:14:31 2022 +0900
+
+    - Do not run unity when the flag of render is false
+    - Enable to close the process of unity render automatically
+
+[33mcommit b12f0f2bf072d59bfa129f2497da57bb9560008d[m
+Merge: 9e8139f 90ef5bc
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon May 2 14:04:19 2022 +0200
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit 9e8139f34e8ebf4f79664aa3722347cf15a1d862[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon May 2 14:04:06 2022 +0200
+
+    update readme
+
+[33mcommit 9846c5f0e250ab153093765882e1c066bfba3feb[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon May 2 13:59:30 2022 +0200
+
+    fix a bug in the vision env when clipping the relative dist
+
+[33mcommit 90ef5bc275e604a9d809cd21e6479a31944266e7[m
+Merge: 5e67dc5 2847035
+Author: Yunlong <yun-long.song@outlook.com>
+Date:   Wed Apr 13 01:27:01 2022 -0700
+
+    Merge pull request #32 from tongtybj/auto_evaluation
+    
+    Auto evaluation
+
+[33mcommit 2847035942a25ffd30e00bf67fbba98aa485cdb9[m
+Author: Moju Zhao <chou@jsk.imi.i.u-tokyo.ac.jp>
+Date:   Fri Apr 8 21:03:57 2022 +0900
+
+    Refactor the launch_evaluation.bash for better evaluation
+
+[33mcommit 39ad27226ff83b9755718240459f06815119f60c[m
+Author: Moju Zhao <chou@jsk.imi.i.u-tokyo.ac.jp>
+Date:   Fri Apr 8 21:01:13 2022 +0900
+
+    Correct the conda env name
+
+[33mcommit 5e67dc5de8a71740a9bc809c81786ba8d81ba5db[m
+Author: Yunlong <yun-long.song@outlook.com>
+Date:   Thu Apr 7 09:11:18 2022 +0200
+
+    Update environment.yaml
+    
+    Minor fix of the anaconda environment name
+
+[33mcommit 4ccd8e4c8aad6ceadc673a725a93955716ed04fa[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Sun Mar 27 21:11:40 2022 +0200
+
+    compress image size
+
+[33mcommit 1c16ffd5608550b642cfa1705c31fdc16f03ea2d[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Sun Mar 27 20:26:53 2022 +0200
+
+    fix static rendering issue
+
+[33mcommit 1c7e7e28d0762f1ac7394cafeb0032b27898a625[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Fri Mar 25 18:08:03 2022 +0100
+
+    Adressed Issue #13
+
+[33mcommit 0f775aa862347ed1ab11245a7f05d9e261111c9d[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Fri Mar 25 09:06:11 2022 +0100
+
+    Fixed issue #14
+
+[33mcommit 828bdcc499ec2fc1976d03a4bd7fb4e10552be71[m
+Author: lbfd <49951156+lbfd@users.noreply.github.com>
+Date:   Sat Mar 19 11:16:41 2022 +0100
+
+    Update README.md
+
+[33mcommit c372d2fcde26bb1f9b45c907ace83dc721252745[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Mar 18 14:20:04 2022 +0100
+
+    Update README.md
+
+[33mcommit 0427f433439c0a58b530fcc32bdac8b5eb096c96[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Mar 18 14:19:03 2022 +0100
+
+    minor update in flightmare
+
+[33mcommit 4266e97a1730cc779c8dc91dc56687e60b147660[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Mar 18 14:11:21 2022 +0100
+
+    Update README.md
+
+[33mcommit 588b849ae8541862962a23eac60128d2ce682a22[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Mar 18 14:07:16 2022 +0100
+
+    Update evaluation_config.yaml
+
+[33mcommit 33f696c9390661601bf9551dcea72dec446be385[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Mar 18 14:05:05 2022 +0100
+
+    Update README.md
+
+[33mcommit 1af764b466c2509cd9ce63cf2f24d92d3d4126bd[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Mar 18 14:01:17 2022 +0100
+
+    Update README.md
+
+[33mcommit 854d11fbbead1dc0cb2def3e184e3611c9b18630[m
+Author: Yunlong <yun-long.song@outlook.com>
+Date:   Wed Mar 16 19:53:31 2022 +0100
+
+    Update README.md
+
+[33mcommit b3710d2926e28d32368d176ee657072d5ec42a35[m
+Author: Antonio Loquercio <loquercio@berkeley.edu>
+Date:   Tue Mar 15 14:46:05 2022 -0700
+
+    Update README.md
+
+[33mcommit 9533ad5b4fa3a5f03d674f19e386e37290f92970[m
+Author: Antonio Loquercio <loquercio@berkeley.edu>
+Date:   Tue Mar 15 14:45:07 2022 -0700
+
+    Update README.md
+
+[33mcommit 60b11490a3db849c62fb6d4dac04109a9b62556b[m
+Author: Antonio Loquercio <loquercio@berkeley.edu>
+Date:   Tue Mar 15 14:41:16 2022 -0700
+
+    Add files via upload
+
+[33mcommit bc9503949f797396b0e0bce43f89a1d44d4b2481[m
+Author: Antonio Loquercio <loquercio@berkeley.edu>
+Date:   Tue Mar 15 14:40:56 2022 -0700
+
+    Update README.md
+
+[33mcommit a8f0436caedb4f6016d33a7a21b96f51c1c70f48[m
+Author: Antonio Loquercio <loquercio@berkeley.edu>
+Date:   Tue Mar 15 14:37:09 2022 -0700
+
+    Update README.md
+
+[33mcommit aa156f0a7b0ecf618420ccc01f0ecc58f76edeb8[m
+Author: Antonio Loquercio <loquercio@berkeley.edu>
+Date:   Tue Mar 15 14:32:24 2022 -0700
+
+    Update README.md
+
+[33mcommit adbce95ac4eccbcb59d2b633d27406b79da0f8ef[m
+Author: Antonio Loquercio <loquercio@berkeley.edu>
+Date:   Tue Mar 15 14:29:00 2022 -0700
+
+    Update README.md
+
+[33mcommit e341e574e0002d8c9cc5c6f9090b68073a04a3d0[m
+Merge: 109295e 57e1194
+Author: Yunlong <yun-long.song@outlook.com>
+Date:   Tue Mar 15 14:31:55 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit 109295edb1b373c199b8d3826fa68b6f62efd60e[m
+Author: Yunlong <yun-long.song@outlook.com>
+Date:   Tue Mar 15 14:31:53 2022 +0100
+
+    minor fix
+
+[33mcommit 57e11940149e6449de92cd906ef355a6f64157fe[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 15 14:20:42 2022 +0100
+
+    fix quad namespace
+
+[33mcommit 80b256c037c1a1d9a2a4ccefdfdfda9e097eab2c[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Tue Mar 15 13:56:37 2022 +0100
+
+    setup.bash
+
+[33mcommit 5563aa4561e6f76e0c9b1a2ae9454105ef934d6b[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Tue Mar 15 13:55:35 2022 +0100
+
+    readme
+
+[33mcommit db842b20f497e27a98ca727512f02edc7ab0859c[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Tue Mar 15 13:52:30 2022 +0100
+
+    update
+
+[33mcommit 69497cd45a0fa67038d33bc2bec651a0155dbc28[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Tue Mar 15 13:51:41 2022 +0100
+
+    add trajectory download to setup
+
+[33mcommit 4fce044cae607beb0138febdcfeb85b3b0a4acd5[m
+Merge: 2a8a68b 04ce69e
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Tue Mar 15 13:34:17 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit 2a8a68ba2ad05126b9636a00e8feaa4ec42b340b[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Tue Mar 15 13:34:05 2022 +0100
+
+    WIP
+
+[33mcommit 04ce69e88b6c0fef2fd3acc4231d2aeee5a23cc9[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 15 13:26:40 2022 +0100
+
+    Update README.md
+
+[33mcommit 90e2fcd072e077d7ee7c9fdda341a907de74db9c[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Tue Mar 15 10:22:26 2022 +0100
+
+    update readme
+
+[33mcommit 76e11081573e8031600b44567cb731bf37fec4c5[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 14 20:24:59 2022 +0100
+
+    Update README
+
+[33mcommit acd15890c42addaefa0ad31280b367fe75d582c5[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 14 20:13:56 2022 +0100
+
+    update environment yaml. resolve version conflicts
+
+[33mcommit cbd64d35ff469e14935dfcfdc0f9b794d8590a6e[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 14 19:53:45 2022 +0100
+
+    update
+
+[33mcommit a5d9324123c707d9d43cd9979329f4b908359fa2[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 14 19:52:01 2022 +0100
+
+    update flightmare
+
+[33mcommit 28e621364e0297d6726f75948d2a4e8f841a5be0[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 14 19:49:07 2022 +0100
+
+    update flightmare
+
+[33mcommit 9d8b2f0aea28e3b05c5de31dfae91092f5d9e7f8[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 14 19:41:37 2022 +0100
+
+    add unity download from rpg dataset server
+
+[33mcommit 2abae6fe4c380d48b49b131c06215d6785906f14[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 14 19:04:54 2022 +0100
+
+    update setup bash for downloading unity
+
+[33mcommit 75801ea603c4e5b4a64a62c1bb56db4cdba08cc9[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 14 16:39:16 2022 +0100
+
+    delete agi
+
+[33mcommit 5989620f5d75c180d37a0a1218322bf41326a4a0[m
+Merge: 635c670 03836f7
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 14 16:35:04 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit 635c670236fb9c523538df4810380268b9d6d931[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 14 16:30:37 2022 +0100
+
+    Add google drive link to the Unity standard alone
+
+[33mcommit 03836f7df8f34acdc82bcc3f5d5ebb9a7d1d93a1[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Mon Mar 14 16:19:53 2022 +0100
+
+    updated submodule
+
+[33mcommit e89acd19f7c50e36f6da6cdd4df776211b3b13f7[m
+Merge: 38835ac 1ecff6d
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Mon Mar 14 15:49:45 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit 38835ac0f36a12241c9163c90bc8244f7e68dc95[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Mon Mar 14 15:49:37 2022 +0100
+
+    Renamed to DodgeLib
+
+[33mcommit 1ecff6d6a40cce596e7015d8e9600f39f8fbcfa1[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Mon Mar 14 14:56:08 2022 +0100
+
+    Update README.md
+
+[33mcommit a0142acae3e27cd27a12aefc2bb0b1f7dec9445e[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Mon Mar 14 14:54:34 2022 +0100
+
+    Update README.md
+
+[33mcommit c0a8250dc86cc1db62e011eae88b1b5883c24e09[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Mon Mar 14 14:52:38 2022 +0100
+
+    Medium Obstacle difficulty as default file
+
+[33mcommit c514967d018c06e00e7e50bb67b8be3fcf4e61ea[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Mon Mar 14 14:51:17 2022 +0100
+
+    Updated gitigores
+
+[33mcommit 0a2f30972e2a67b7c3cb07e85ed451b92354a03c[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Mon Mar 14 14:45:01 2022 +0100
+
+    Updated README
+
+[33mcommit 1028f71c4d414ef62ab7360e517a6f035f218e99[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 14 14:13:30 2022 +0100
+
+    change readme
+
+[33mcommit 78864b6cf6b04c646213851c144c587c5eb64758[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 14 13:51:17 2022 +0100
+
+    Change ReadME and update flightmare for load csv files for different environment difficulties
+
+[33mcommit 101dcfd80630f961c39c7c4c14894e273be3c8c4[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Mon Mar 14 10:48:01 2022 +0100
+
+    simplified simulation
+
+[33mcommit 3f761b63232061d564e7ff4a055e4ffb91e5dcc9[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Mar 11 19:12:22 2022 +0100
+
+    update flightamre
+
+[33mcommit accdd7b6ec516f206c420eb3e2bbb4e004f2f0b7[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Mar 11 16:34:16 2022 +0100
+
+    Some reward fine tuning
+
+[33mcommit 6303c33bdfe6d76600a6d3d1454c9fc084825166[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Mar 11 14:47:51 2022 +0100
+
+    code clearning
+
+[33mcommit caf1e885215b9aa431674881a825e0330fc14db9[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Mar 11 11:10:55 2022 +0100
+
+    Update obstacle avoidance
+
+[33mcommit ae5950563e7fe49d599902105841113646f81097[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Mar 10 23:35:12 2022 +0100
+
+    velocity tracking and avoiding obstacles
+
+[33mcommit 7f9607bbf21b32e3deddfc1e607c3ccc7a9ed79e[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Mar 10 19:52:40 2022 +0100
+
+    update flightmare
+
+[33mcommit d5aa3bdf61975b820efcdb4d54f0401bc3a4c861[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Mar 10 15:33:22 2022 +0100
+
+    roll back agilicioys
+
+[33mcommit 503a1f5fda219e8f27fdf439d14a763588510f69[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Mar 10 14:50:52 2022 +0100
+
+    Hovering policy done.
+
+[33mcommit c98979b7d7444ed8f95606dea75e6cb8e63e6f2c[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Wed Mar 9 19:24:45 2022 +0100
+
+    WIP RL hovering
+
+[33mcommit c541e88072b52882ddd63f36e9aa750d661a5796[m
+Merge: 124d33b 9ab0663
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Wed Mar 9 17:46:38 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit 124d33b8ea5ba996a031d3d666e5d95d91fd3db6[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Wed Mar 9 17:45:20 2022 +0100
+
+    wip
+
+[33mcommit 9ab06636c116837f7569d52447f78c125529225c[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Wed Mar 9 14:33:10 2022 +0100
+
+    Added evaluation script
+
+[33mcommit 4e701073e41f2735c975acfa0b992e33b0f0448c[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Wed Mar 9 13:14:41 2022 +0100
+
+    agilicious
+
+[33mcommit 84c86b0730c4e0acc3cb257c1f211cad417e2dad[m
+Merge: e0b3839 8140127
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Wed Mar 9 10:20:08 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit e0b3839593c9aac3d4d1e986b10df09bbc0f87ed[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Wed Mar 9 10:19:57 2022 +0100
+
+    rm state printout, silence voltage warning in agilicious
+
+[33mcommit 8140127f09c14bb052cbb5ddd04e479cfcf73e9e[m
+Author: antonilo <loquercio@ifi.uzh.ch>
+Date:   Tue Mar 8 13:32:25 2022 -0800
+
+    minor readme
+
+[33mcommit 3c307c55ddb1090b1f25426f9efc931406b65fb5[m
+Author: Antonio Loquercio <loquercio@berkeley.edu>
+Date:   Tue Mar 8 13:26:41 2022 -0800
+
+    Update README.md
+
+[33mcommit dbc340dc98404a02d16d636ba4095d2d0e16cf2f[m
+Merge: cbcd538 8426a52
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 8 21:53:42 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit cbcd5389da23499b819e50683f5038c5c748884c[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 8 21:53:33 2022 +0100
+
+    update flightmare to newest version
+
+[33mcommit 93abd25940109dc1b9c2c3ec709fd32b511564a5[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 8 21:53:19 2022 +0100
+
+    update readme, disable RL policy because it goes crazy
+
+[33mcommit 8426a52094cddb04780bcf4187c006dffe168271[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 8 21:46:20 2022 +0100
+
+    Update README.md
+
+[33mcommit 8753968a27ed5d0b5b7a605ff3943e5ab741b190[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Tue Mar 8 20:00:46 2022 +0100
+
+    Added uniplot to setup
+
+[33mcommit 0c66b2dd23ec46d58685b5e7e9edfb6f545afc45[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Tue Mar 8 19:59:11 2022 +0100
+
+    Added evaluation
+
+[33mcommit 2e0d315b9a2158745e2b13ca82dacfc532f11814[m
+Merge: 676bf88 40ed2fc
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Tue Mar 8 18:22:24 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit 40ed2fc1bfc1890c2285e4829cf09b77468fdebc[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Tue Mar 8 17:35:33 2022 +0100
+
+    RL policy done
+
+[33mcommit cc0ee8b1fa6e7dd78323e8a7e20cb173124ac690[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Tue Mar 8 17:19:01 2022 +0100
+
+    wip rl example
+
+[33mcommit d461344c7e64e68e0cdc117ac62e3b396d0fa026[m
+Merge: e0d8015 36fa321
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Tue Mar 8 17:05:29 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit e0d80155e2aa971f69901ce81310bafa4e54b65e[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Tue Mar 8 17:05:27 2022 +0100
+
+    Add rl example
+
+[33mcommit 36fa3217ce34259e7071985a1740aefecdbd96fb[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 8 16:52:20 2022 +0100
+
+    fix in the rl_example
+
+[33mcommit 676bf880465455e2bcbf8f4bf4a4b58a032c7ad6[m
+Merge: 8647fae 704b054
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Tue Mar 8 15:56:44 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit 704b05460b09f951166a448334d1bc8b22c35659[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 8 15:49:27 2022 +0100
+
+    Update README.md
+
+[33mcommit b18c202246a0fc69e1c76d5e338127d855ca6ce4[m
+Merge: ea45530 229fafd
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 8 15:48:33 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit ea455300e9a919cf67bb3237297c0fa98cdbaae5[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 8 15:48:27 2022 +0100
+
+    update to the ROS scripts, prepared for yunlong to add the RL policy
+
+[33mcommit 229fafd9426da23ec6c54a8c0aab6433f17ef069[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 8 15:47:49 2022 +0100
+
+    Update README.md
+
+[33mcommit ba786a00a83288a98f0ba835370e1609a43dfbf2[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 8 15:43:16 2022 +0100
+
+    Update README.md
+
+[33mcommit f277191d51a1a4912bb775b176cc6f716d85c4d0[m
+Merge: e076ffe 85e8dd3
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 8 15:16:54 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit e076ffeb97f11aa831091d34c742d8875d40418d[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 8 15:16:48 2022 +0100
+
+    first version of ROS scripts
+
+[33mcommit 8647fae9daef7ea86a817fe7d5704ccac0ea4f2d[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Tue Mar 8 15:08:48 2022 +0100
+
+    Eigen disable vectorization
+
+[33mcommit 85e8dd3382cc97fe1e1839e7867f6854a38a5336[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Tue Mar 8 12:25:45 2022 +0100
+
+    add obstacle scale
+
+[33mcommit 4172483b71bda31393f98b860c1c2f49bf8053d2[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 8 11:15:43 2022 +0100
+
+    new message type for obstacles
+
+[33mcommit 79ed1687716ca693f971d65dfab1c36fc13643a2[m
+Author: antonilo <loquercio@ifi.uzh.ch>
+Date:   Mon Mar 7 16:59:21 2022 -0800
+
+    minor
+
+[33mcommit 5cac0e9a33580630d20f37365b8e0efaac320b89[m
+Author: antonilo <loquercio@ifi.uzh.ch>
+Date:   Mon Mar 7 16:56:27 2022 -0800
+
+    minor corrections
+
+[33mcommit 10e3f868a67c57ce30c281bedf2952128978ab82[m
+Author: Antonio Loquercio <loquercio@berkeley.edu>
+Date:   Mon Mar 7 16:48:30 2022 -0800
+
+    Update README.md
+
+[33mcommit 86f17933dae3be973225aa4c474733fc6c464e6d[m
+Author: antonilo <loquercio@ifi.uzh.ch>
+Date:   Mon Mar 7 16:43:24 2022 -0800
+
+    message
+
+[33mcommit 843ccfb71092ea6cbdb8b6c081fae3def7820b5c[m
+Author: antonilo <loquercio@ifi.uzh.ch>
+Date:   Mon Mar 7 16:23:07 2022 -0800
+
+    updated image
+
+[33mcommit 148c8aaa63195c6a4dc5388d8e6b9cc13de9f219[m
+Author: antonilo <loquercio@ifi.uzh.ch>
+Date:   Mon Mar 7 16:20:14 2022 -0800
+
+    minor
+
+[33mcommit 9a21a29df746c84071c16113fc543f9233ba7a6c[m
+Author: antonilo <loquercio@ifi.uzh.ch>
+Date:   Mon Mar 7 16:19:56 2022 -0800
+
+    updated readme
+
+[33mcommit c77b2023d10ae7c2dc228c24dedc920530aa361c[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 7 23:51:30 2022 +0100
+
+    wip
+
+[33mcommit b95ea57dc2f1908a65e2e456bec1b39627118d9c[m
+Merge: facf8f1 132ad4a
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 7 23:48:00 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit facf8f1621502a632fba523fcbc2d23c325e99c5[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 7 23:47:48 2022 +0100
+
+    bug fixed. God bless
+
+[33mcommit fda9b6b4f81470f9d3562a06a0e8c0265be06f9a[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 7 23:47:16 2022 +0100
+
+    GB
+
+[33mcommit 132ad4a06664a28ab3a67afd1cd4895fc059deca[m
+Merge: 3da6d02 8178617
+Author: antonilo <loquercio@ifi.uzh.ch>
+Date:   Mon Mar 7 11:02:00 2022 -0800
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit 3da6d02409bf50b32042bb8e468bd42833499391[m
+Author: antonilo <loquercio@ifi.uzh.ch>
+Date:   Mon Mar 7 11:01:00 2022 -0800
+
+    added link to standalone
+
+[33mcommit 8178617a117f6a2a1163f4cb21f6cdd96c8b647f[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 7 18:59:46 2022 +0100
+
+    whatever
+
+[33mcommit 3c4809e9227f01699b106838132ad66a31de59dd[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 7 17:08:03 2022 +0100
+
+    Debug
+
+[33mcommit 4359adb68ee7753d145dbaf632be7c6f8e4ad910[m
+Merge: 84f6cf8 206b7a4
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 7 12:58:16 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit 84f6cf83e5ba7e2e06b2942a336648ef448b16bf[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Mon Mar 7 12:57:23 2022 +0100
+
+    Publishing obstacle observations.
+
+[33mcommit 206b7a47de5b832c0462860ad2235bb065ca49b8[m
+Merge: ead15ec 79aada1
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Mon Mar 7 11:43:29 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit ead15ecafa138688c3da8660754ad872442d47ab[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Mon Mar 7 11:43:17 2022 +0100
+
+    update elia
+
+[33mcommit 79aada17d2ea709ecaad27b2f296fb60a8bba371[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Mon Mar 7 11:07:54 2022 +0100
+
+    Added custom gitignore to obstacle generation
+
+[33mcommit 812d5baa2340586f95a3249092e0c53270852454[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Mon Mar 7 11:05:45 2022 +0100
+
+    Removed leftover file
+
+[33mcommit ac4fa14ef6683c689ad7342498560be24f743d23[m
+Merge: 8177c74 670756d
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Mon Mar 7 11:05:03 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit 8177c742ded0c96e60a0bb0028757447ddb6dcc2[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Mon Mar 7 11:04:52 2022 +0100
+
+    Obstacle Generation update
+
+[33mcommit 670756db2d0d487afecaebf0d5af42fb58039942[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Sun Mar 6 15:16:19 2022 +0100
+
+    update readme and rename envpy folder as python
+
+[33mcommit f3aac1a4508409dc33289cf2f14551350ac56f1e[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Sun Mar 6 15:11:07 2022 +0100
+
+    Update README
+
+[33mcommit 84a442d77e3dc7f46113634b1c5da137cbf3c152[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Sun Mar 6 14:57:04 2022 +0100
+
+    add READEME.md for python usage
+
+[33mcommit 3adc684b61e7f00b04a0a1caa8bfe6e70cf8a805[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Sat Mar 5 21:51:18 2022 +0100
+
+    minor changes in README
+
+[33mcommit c6dc7757bd77a05e2bec6eccf7a4577ca9c9276e[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Sat Mar 5 21:25:33 2022 +0100
+
+    Update README.md
+
+[33mcommit c74ebd8c438ff018f92e381a4e88ff04623d86f6[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Mar 4 23:30:30 2022 +0100
+
+    Add PPO training
+
+[33mcommit ac04a9bbcd15b451d78ea2ecc4744b0a197eb5a4[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Mar 4 20:36:29 2022 +0100
+
+    wip
+
+[33mcommit 1a8eafb7c1547bb0fb7bca315a0745e9ad18aeb9[m
+Merge: 810d644 ec10fd6
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Mar 4 18:01:17 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit 810d64434e4977b42d627193fed50f2c9cf3c00b[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Mar 4 18:01:09 2022 +0100
+
+    Bug fixing for dynamic and static obstacles.
+
+[33mcommit ec10fd62252a5bb3a9ab87a2e0cd9c9e52c85182[m
+Author: Yunlong <yun-long.song@outlook.com>
+Date:   Thu Mar 3 20:07:01 2022 +0100
+
+    Update README.md
+
+[33mcommit 8ab024ecff6be72398fbdab6694035a04df99590[m
+Author: Yunlong <yun-long.song@outlook.com>
+Date:   Thu Mar 3 20:06:14 2022 +0100
+
+    Update README.md
+
+[33mcommit 84ef48015b6d21b8d29d003e7d2c87142411dfbc[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Mar 3 20:05:26 2022 +0100
+
+    Update ReadME
+
+[33mcommit 6a48326fbacb60fb41026a4ccc829e51a6568636[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Mar 3 19:53:13 2022 +0100
+
+    Add run_vision_ppo.py
+
+[33mcommit bebfdef44ef77a9a7fa54e414dda2c7d3c51012b[m
+Merge: f03580b 9d5dc69
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Thu Mar 3 19:36:28 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit f03580be2298cf1fcfec29bbdd9a47b18133dc65[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Thu Mar 3 19:34:37 2022 +0100
+
+    Obstacle Generator
+
+[33mcommit 9d5dc69faa9a9a6c452c5f17cb2ea80ff659f5a0[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Mar 3 17:54:49 2022 +0100
+
+    wip
+
+[33mcommit 248f371a9bac86d576d4c8535e94facd282ab1c3[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Mar 3 17:18:02 2022 +0100
+
+    Bug fix for flightmare object rendering
+
+[33mcommit bbbc2493f8b74c27c02db04103aa17298bea0f90[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 1 12:04:53 2022 +0100
+
+    added python file for testing in ROS
+
+[33mcommit 7f30a874cf6395fa1bfdce9577509257ef70deae[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 1 11:41:07 2022 +0100
+
+    working again
+
+[33mcommit e45acf8a9ba7e056821bd9089925c1fa9d87a4a4[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 1 11:32:25 2022 +0100
+
+    this does not work for Elia
+
+[33mcommit 8a0a7648aaa60384f789c10522009ff0e313ac72[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 1 10:32:57 2022 +0100
+
+    update flightmare"
+
+[33mcommit 4310fd3f14a3735908a782852c97c83117988ea1[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 1 10:30:26 2022 +0100
+
+    update flightmare"
+
+[33mcommit 040de2e8c1b2d8871fdfb20d47197228da7b5ed6[m
+Merge: 3436672 15aa30e
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 1 10:28:21 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit 34366724e3a4d353c53578f41121113258a32200[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Tue Mar 1 10:25:52 2022 +0100
+
+    updated flightmare
+
+[33mcommit 15aa30ec796d2a0b0e9c0d37ec789d8227f0a1ec[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Feb 25 17:49:31 2022 +0100
+
+    Add dynamic obstacles.
+
+[33mcommit 51d1b1b43bd8d46630700029fdf3fe7019483639[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Feb 25 14:11:04 2022 +0100
+
+    Fixed object done
+
+[33mcommit 83aa37573023d845e86b9eddeef3e96e589cc752[m
+Merge: 574d2f5 332187c
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Feb 25 13:43:20 2022 +0100
+
+    Configurable objects
+
+[33mcommit 574d2f5d47fdd380cbe6613e15dfe2e6ecd59d4d[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Feb 25 13:42:21 2022 +0100
+
+    Add object configuration
+
+[33mcommit 332187c59a5683c4641485a01fe543fca6a0f445[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Feb 25 12:22:18 2022 +0100
+
+    update agilicious
+
+[33mcommit ac822d9fdf25022e3510fef49f18a044b0831418[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Feb 25 11:56:07 2022 +0100
+
+    wip
+
+[33mcommit 09dc678b011eaa0907ae2f18412f2bcf14083bcc[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Feb 25 11:54:34 2022 +0100
+
+    wip
+
+[33mcommit 15aa9efcdc9f160890602c2fe4e7e699ec8f266f[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Feb 25 11:46:11 2022 +0100
+
+    update agilicious
+
+[33mcommit d75fa82fe1edc3c24e00b387f5f9ae2ba058acd2[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Feb 25 11:23:29 2022 +0100
+
+    wip
+
+[33mcommit 31021b34d95608077743b61d27bc97e6b84bade9[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Feb 25 11:10:40 2022 +0100
+
+    update agilicious to master
+
+[33mcommit e2bfc98bc5ceec242ece3b41b476640b422f3d13[m
+Merge: 08c833b 108ff69
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Fri Feb 25 11:05:39 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit 08c833b45d75e9242e21582a6335fac84a64162e[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Fri Feb 25 11:05:33 2022 +0100
+
+    Cleaned up launchfile
+
+[33mcommit 108ff69057896d42a307a063e4c222350fde97a4[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Feb 25 11:02:08 2022 +0100
+
+    Update setup_ros.bash
+
+[33mcommit f235a39551e306eff792b83aab051a384460a3ed[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Feb 25 10:58:34 2022 +0100
+
+    Update setup_ros.bash
+
+[33mcommit c332b6fe78324ac88bdf270c8eb8c4c9108528dc[m
+Merge: 3ceef6b c5bb870
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Fri Feb 25 10:50:14 2022 +0100
+
+    Merge branch 'main' of github.com:uzh-rpg/agile_flight into main
+
+[33mcommit 3ceef6b6e1a2b8bb5a7ce0f71cacf7e856c1a6f0[m
+Author: Leonard Bauersfeld <leonard.bauersfeld@gmail.com>
+Date:   Fri Feb 25 10:48:05 2022 +0100
+
+    Fixed CMakeLists Eigen
+
+[33mcommit c5bb870b7e4d061856ca85ae31d7ca51d3346e97[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Feb 25 10:39:10 2022 +0100
+
+    Update README.md
+
+[33mcommit 8c269299e5f2d6f02fcad425a7370189e2ecd028[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Feb 25 10:36:22 2022 +0100
+
+    Update setup_ros.bash
+
+[33mcommit c5cb6492881989bb6087aadd204c76815d610d4c[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Feb 25 10:35:25 2022 +0100
+
+    Update README.md
+
+[33mcommit f261d9ca29d419bb97a02d3f46000233d16ca521[m
+Author: Elia Kaufmann <elia.kaufmann92@gmail.com>
+Date:   Fri Feb 25 10:35:05 2022 +0100
+
+    Update README.md
+
+[33mcommit abcaea66ca549805c357438d86a8b9127fa8d089[m
+Author: Yunlong <yun-long.song@outlook.com>
+Date:   Fri Feb 18 13:57:39 2022 +0100
+
+    Update setup_ros.bash
+
+[33mcommit 85c63e69f3edce3fcd861ef44720c92b86373faf[m
+Author: Yunlong <yun-long.song@outlook.com>
+Date:   Fri Feb 18 11:45:26 2022 +0100
+
+    Update README.md
+
+[33mcommit 29203ed2f2dc7d9e7f10d0caef86f2028eed78f1[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Feb 18 11:42:25 2022 +0100
+
+    Update setup py bash
+
+[33mcommit c0545d7be63cd90fb5f27d25d275276db80a5d20[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Feb 18 11:07:48 2022 +0100
+
+    run bach file
+
+[33mcommit a1dfa3f88efa8348448b1b536493ad049696b1ac[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Feb 18 10:48:03 2022 +0100
+
+    Readme
+
+[33mcommit 6e55150b5bf82152e278ccc207fe9301aeea4bc6[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Fri Feb 18 10:34:35 2022 +0100
+
+    Add different environment
+
+[33mcommit 86c373dc1fca95699e073b996bd48412409ba986[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Feb 17 21:37:36 2022 +0100
+
+    Visualizing depth image
+
+[33mcommit 56bf023104f1e6495f439f075b5b4466ff4f2074[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Feb 17 21:10:57 2022 +0100
+
+    Add pthon interface.
+
+[33mcommit d5d37437b546ac34fae93ccb316173176d2dd4b0[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Feb 17 19:54:03 2022 +0100
+
+    Add Depth Camera
+
+[33mcommit 1a20b2fde88153cc5cd4cef86e3809700264b2c8[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Feb 17 19:37:16 2022 +0100
+
+    Update Flightmare ros-to-unity-orientation
+
+[33mcommit 4ec728423a84c6f779cfdff33ce3bc50af1fee37[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Feb 17 19:22:14 2022 +0100
+
+    Flightmare camera with Agisim running
+
+[33mcommit df34b19d78b5d32fe7da8ddd2301b7684c7116da[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Feb 17 17:45:29 2022 +0100
+
+    Eventually!
+
+[33mcommit 24f21c4a33fb49f5e29bd3bddaf9a3d659664897[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Feb 17 17:05:28 2022 +0100
+
+    Refactoring the code seems working
+
+[33mcommit 0f669429ccbbf62ef4e507c1c6ccc5671898c936[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Thu Feb 17 15:45:57 2022 +0100
+
+    No IDEA
+
+[33mcommit bcb1960e409b5a82266ec6f44a59d0608cae472b[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Wed Feb 16 23:27:58 2022 +0100
+
+    Runtime error with flightmare quad and flightmare camera. xxx
+
+[33mcommit b5cf62b4c87066795f28093db1a55947cfb43225[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Wed Feb 16 18:27:10 2022 +0100
+
+    Flightmare math quaternion ROS 2 Unity bug fix
+
+[33mcommit 4d19dc0a3bd961899f694eff504a17656734b61d[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Wed Feb 16 18:25:53 2022 +0100
+
+    Add camera and fix a bug
+
+[33mcommit d21c0d44c9ab86836895e4a000a0b438e4999184[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Wed Feb 16 15:44:10 2022 +0100
+
+    Adding launching examples
+
+[33mcommit 602d0c35ea177b67f41408c815fc368562978b29[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Wed Feb 16 15:01:22 2022 +0100
+
+    Add environment folder and requirementx.txt for ROS python
+
+[33mcommit 16ad47f8f68384d14caa272ae4c416a4964b8c11[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Wed Feb 16 14:34:29 2022 +0100
+
+    add submodules
+
+[33mcommit e474ef61eff74319449a7eaec5bd502fb03b7025[m
+Author: Yunlong Song <yun-long.song@outlook.com>
+Date:   Wed Feb 16 13:55:13 2022 +0100
+
+    Add initial files
+
+[33mcommit 813122f953d5c534e522971ea2678620d2946123[m
+Author: Yunlong <yun-long.song@outlook.com>
+Date:   Wed Feb 16 13:50:02 2022 +0100
+
+    Initial commit
