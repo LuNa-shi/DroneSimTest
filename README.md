@@ -80,3 +80,13 @@ take astar for an example.
 revise user_code, run_competition ...
 copy the launch_evaluation.bash in your branch.
 
+## Run manually
+1. launch the scene `roslaunch envsim visionenv_sim.launch render:=True gui:=False rviz:=True`
+2. enable the drone(4 commands)
+```
+rostopic pub /kingfisher/dodgeros_pilot/off std_msgs/Empty "{}" --once
+rostopic pub /kingfisher/dodgeros_pilot/reset_sim std_msgs/Empty "{}" --once
+rostopic pub /kingfisher/dodgeros_pilot/enable std_msgs/Bool "data: true" --once
+rostopic pub /kingfisher/dodgeros_pilot/start std_msgs/Empty "{}" --once
+```
+3. use your own algorithm
